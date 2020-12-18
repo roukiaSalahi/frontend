@@ -23,7 +23,7 @@ Simple web responsive page that contains a form with validation fields.
 
 # Deployed URL
 
-[link](https://roukiasalahi.github.io/frontend/)
+[link](https://roukiasalahi.github.io/frontend-form/)
 
 
 ![](assets/fDesc.jpg)
