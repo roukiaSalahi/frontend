@@ -9,19 +9,23 @@
 
 # About
 
-Simple web responsive page that conatins a form with a validation fields.
+Simple web responsive page that contains a form with validation fields.
 
 # Languages
 
-- Javascript
 - Html
-- Css
+- Javascript
 
 # Technologies
 
 - jQuary
-- Bootstarp 
+- Bootstrap 
 
 # Deployed URL
 
-[link]()
+[link](https://roukiasalahi.github.io/frontend/)
+
+
+![](assets/fDesc.jpg)
+
+![](assets/fMobile.jpg)
