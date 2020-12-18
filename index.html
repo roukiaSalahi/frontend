@@ -1,0 +1,142 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="well form-horizontal" action=" " method="post" id="contact_form">
+            <fieldset>
+
+                <!-- Form Name -->
+                <legend>Contact Us</legend>
+
+                <!-- Text input First Name-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">First Name <span style="font-size: 1.1em; color: red">*</span></label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="first_name" placeholder="First Name" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input Last Name-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Last Name <span style="font-size: 1.1em; color: red">*</span></label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="last_name" placeholder="Last Name" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input E-Mail-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">E-Mail <span style="font-size: 1.1em; color: red">*</span></label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                            <input name="email" placeholder="E-Mail Address" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input Phone #-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Phone # <span style="font-size: 1.1em; color: red">*</span></label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                            <input name="phone1" placeholder="XXX XXX XXXX" class="form-control" type="text">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                  <!-- Text input Phone #-->
+                  <div class="form-group">
+                    <label class="col-md-4 control-label">Phone #</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                            <input name="phone2" placeholder="XXX XXX XXXX" class="form-control" type="text">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                  <!-- Text input Phone #-->
+                  <div class="form-group">
+                    <label class="col-md-4 control-label">Phone #</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                            <input name="phone3" placeholder="XXX XXX XXXX" class="form-control" type="text">
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Select occupation -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Occupation <span style="font-size: 1.1em; color: red">*</span></label>
+                    <div class="col-md-4 selectContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                            <select name="occupation" class="form-control selectpicker">
+                                <option value=" ">Please select your occupation</option>
+                                <option>Management</option>
+                                <option>Business and Financial Operations </option>
+                                <option>Computer and Mathematical</option>
+                                <option>Architecture and Engineering</option>
+                                <option>Life, Physical, and Social Science </option>
+                                <option>Community and Social Service </option>
+                                <option>Legal </option>
+                                <option>Educational Instruction and Library </option>
+                                <option>Arts, Design, Entertainment, Sports, and Media</option>
+                                <option> Healthcare Practitioners and Technical</option>
+                                <option>Protective Service </option>
+                                <option>Food Preparation and Serving Related </option>
+                                <option>Building and Grounds Cleaning and Maintenance </option>
+                                <option>Personal Care and Service </option>
+                                <option>Sales and Related Occupations</option>
+                                <option>Office and Administrative Support </option>
+                                <option> Farming, Fishing, and Forestry </option>
+                                <option>Construction and Extraction </option>
+                                <option>Installation, Maintenance, and Repair</option>
+                                <option>Production </option>
+                                <option>Transportation and Material Moving </option>
+                                <option> Military Specific Occupations</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label"></label>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-info">Send
+                            <span class="glyphicon glyphicon-send"></span>
+                        </button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+   
+    <script src="app.js"> </script>
+</body>
+
+</html>
